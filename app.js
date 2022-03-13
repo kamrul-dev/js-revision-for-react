@@ -28,7 +28,7 @@ let animal = {
   age: 7,
 };
 // const {name, color, age} = animal;
-const {name, ...rest} = animal; // ...rest parameter console the rest of the elements
+const { name, ...rest } = animal || {}; // ...rest parameter console the rest of the elements and used empty object || {}  for prevent error. It occurs when object is undefined.
 
 console.log(rest);
 
