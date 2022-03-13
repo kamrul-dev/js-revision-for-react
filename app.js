@@ -138,3 +138,12 @@ console.log(result);
 
 const result1 = products.find((pd) => pd.color == 'black');
 console.log(result1);
+
+products.forEach(pd => {
+  console.log(pd)
+})
+
+
+products.forEach(({id, name, price, color}) => {
+  console.log(id, name, price, color);
+})
