@@ -20,4 +20,17 @@ console.log([...numbers2, ...numbers]); */
 
 
 
+// 3. Object destructuring
+// rest parameter
+let animal = {
+  name: 'dog',
+  color: 'brown',
+  age: 7,
+};
+// const {name, color, age} = animal;
+const {name, ...rest} = animal; // ...rest parameter console the rest of the elements
+
+console.log(rest);
+
+
 
