@@ -88,11 +88,22 @@ const numbers = [
   'rina khan',
   'mis daina'
 ]
-for(let i = 0; i < numbers.length; i++){
+/* for(let i = 0; i < numbers.length; i++){
   const element = numbers[i];
   console.log(element);
 }
 
 for(const element of numbers){
   console.log(element);
+}
+ */
+
+const object = { a: 1, b: 2, c: 3 };
+// console.log(object["a"]);   //return value of a
+
+for (const property in object) {
+  // console.log(property);
+  console.log(object);
+  console.log(object[property]);
+    console.log(`${property}: ${object[property]}`);
 }
