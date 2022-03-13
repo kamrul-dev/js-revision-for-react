@@ -135,3 +135,6 @@ const products = [
 
 const result = products.filter((pd) => pd.id !== 1);
 console.log(result);
+
+const result1 = products.find((pd) => pd.color == 'black');
+console.log(result1);
