@@ -111,13 +111,27 @@ for (const property in object) {
 
 
 
-const numbers = [1, 2, 3 , 4, 5, 6, 7, 8, 9];
-/* const temp = [];
-for(const element of numbers){
-  const square = element * element;
-  temp.push(square); 
-}
-console.log(temp);; */
+// const numbers = [1, 2, 3 , 4, 5, 6, 7, 8, 9];
+// /* const temp = [];
+// for(const element of numbers){
+//   const square = element * element;
+//   temp.push(square); 
+// }
+// console.log(temp);; */
 
-const result = numbers.map( x => x * x);
+// const result = numbers.map( x => x * x);
+// console.log(result);
+
+
+const products = [
+  { id: 1, name: "apple", price: 500, color: "golden" },
+  { id: 2, name: "xiaomi", price: 124, color: "black" },
+  { id: 3, name: "samsung", price: 200, color: "black" },
+  { id: 4, name: "samsung2", price: 200, color: "black" },
+  { id: 5, name: "lenovo", price: 300, color: "pink" },
+  { id: 6, name: "xiaomi", price: 100, color: "pink" },
+  { id: 7, name: "lenovo", price: 300, color: "pink" },
+];
+
+const result = products.filter((pd) => pd.id !== 1);
 console.log(result);
