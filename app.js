@@ -72,7 +72,13 @@ const dreamGirl = [
   },
 ];
 
-console.log(dreamGirl);
+// console.log(dreamGirl[0].dream1.contactInfo[0].facebook.friendsList);
 
+const friends = dreamGirl[0].dream1.contactInfo[0].facebook.friendsList;
+console.log(friends);
+
+for(const friend of friends){
+  console.log(friend);
+}
 
 
