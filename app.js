@@ -81,6 +81,7 @@ for(const friend of friends){
   console.log(friend);
 }
 
+/* 
 const numbers = [
   'hero',
   'manna',
@@ -88,7 +89,7 @@ const numbers = [
   'rina khan',
   'mis daina'
 ]
-/* for(let i = 0; i < numbers.length; i++){
+for(let i = 0; i < numbers.length; i++){
   const element = numbers[i];
   console.log(element);
 }
@@ -107,3 +108,16 @@ for (const property in object) {
   console.log(object[property]);
     console.log(`${property}: ${object[property]}`);
 }
+
+
+
+const numbers = [1, 2, 3 , 4, 5, 6, 7, 8, 9];
+/* const temp = [];
+for(const element of numbers){
+  const square = element * element;
+  temp.push(square); 
+}
+console.log(temp);; */
+
+const result = numbers.map( x => x * x);
+console.log(result);
