@@ -93,4 +93,6 @@ for(let i = 0; i < numbers.length; i++){
   console.log(element);
 }
 
-
+for(const element of numbers){
+  console.log(element);
+}
