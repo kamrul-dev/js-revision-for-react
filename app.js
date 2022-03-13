@@ -20,7 +20,7 @@ console.log([...numbers2, ...numbers]); */
 
 
 
-// 3. Object destructuring
+/* // 3. Object destructuring
 // rest parameter
 let animal = {
   name: 'dog',
@@ -31,13 +31,14 @@ let animal = {
 const { name, ...rest } = animal || {}; // ...rest parameter console the rest of the elements and used empty object || {}  for prevent error. It occurs when object is undefined.
 
 console.log(rest);
+ */
 
-
+/* 
 const sum = ({name, age}) => {
   console.log(name);
   console.log(age);
 };
-sum(animal);
+sum(animal); */
 
 
 
