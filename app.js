@@ -81,4 +81,16 @@ for(const friend of friends){
   console.log(friend);
 }
 
+const numbers = [
+  'hero',
+  'manna',
+  'salman',
+  'rina khan',
+  'mis daina'
+]
+for(let i = 0; i < numbers.length; i++){
+  const element = numbers[i];
+  console.log(element);
+}
+
 
