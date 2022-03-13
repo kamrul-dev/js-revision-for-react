@@ -33,4 +33,11 @@ const { name, ...rest } = animal || {}; // ...rest parameter console the rest of
 console.log(rest);
 
 
+const sum = ({name, age}) => {
+  console.log(name);
+  console.log(age);
+};
+sum(animal);
+
+
 
