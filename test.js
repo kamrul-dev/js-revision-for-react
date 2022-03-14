@@ -31,6 +31,6 @@ console.loga(a); //output 6
 // reasssign is not possible
 // has block scope
 
-const x = 100;
-const x = 200; // redeclare is not possible in const
-x = 100 // resasssng not possible in const
+//const x = 100;
+//const x = 200; // redeclare is not possible in const
+//x = 100 // resassign is not possible in const
